@@ -1,0 +1,10 @@
+## Data Analysis - Report
+### Loading the dataset, functions, and libraries
+```{r load}
+library(foreign)
+library(survival)
+source("StandardAnalysis.R")
+source("SurvivalPlot.R")
+data <- read.dta("penis_equation_stata.dta")
+```
+
